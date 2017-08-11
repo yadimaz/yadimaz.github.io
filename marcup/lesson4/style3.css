@@ -1,0 +1,38 @@
+
+div	{
+	width: 700px;
+	height: auto;
+	margin-top: 1em;
+/
+}
+
+form {
+	display: inline-block;
+	margin: 0 10px;
+	line-height: 20px;
+}
+.num input {
+	border-radius: 5px;
+	border-color: #771792;
+	background: none;
+	box-shadow: none;
+	color: #771792;
+}
+input:hover {
+			background: #771792;
+			color: #E6E6E6;
+}
+
+.buk	input {
+	background: none;
+	border: none;
+	color: #771792;
+	margin: 0 0px;
+}
+.buk	input:hover {
+	background: #771792;
+	border-radius: 5px;
+	border-color: #771792;
+	color: #E6E6E6;
+}
+
