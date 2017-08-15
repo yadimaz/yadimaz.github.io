@@ -1,0 +1,93 @@
+div.block {
+	border-radius: 4px;
+	border-color: #ee8129;
+	border-style: solid;
+	border-width: 3px;
+	width: 230px;
+	text-align: center;
+	box-sizing: border-box;
+	padding-bottom: 25px;
+}
+
+span.NameBlock	{
+	height: 60px;
+	background-color: #ee8129;
+	display: block;
+	font-size: 20px;
+	font-family: sans-serif;
+	color: #fff;
+	line-height: 50px;
+	margin-bottom: 20px;
+}
+
+img {
+	font-size: 18px;
+	min-width: 50px;
+	min-width: 50px;
+	max-height: 100px;
+	max-width: 100px;
+}
+
+div.price {
+	
+	color: #35495a;
+	box-sizing: border-box;
+	height: 65px;
+	text-align: center;
+/*	width: 150px;*/
+	margin-left: auto;
+  	margin-right: auto;
+
+}
+p.price {
+	margin: 0 0 0 10px;
+	font-size: 50px;
+	font-family: Impact;
+	position: relative;
+
+}
+
+p.price span:before {
+	content: "$  ";
+	vertical-align: super;
+	font-size: 10px;
+}
+p.price span:after {
+	content: "  Mounthly";
+	vertical-align: sub;
+	font-size: 10px;
+}
+div.spisok {
+	margin: 25px 12px 0 12px;
+}
+ul {
+	padding: 0;
+	margin: 16px 0 12px 0;
+}
+li {
+	background-color: #edf5fd;
+	margin: 1px 0;
+	padding: 4px 0 4px 40px;
+	color: #888c94;
+	font-size: 12px;
+	text-align: left;
+	display: block;
+}
+
+li:nth-child(even) {
+	background-color: #f5f5f6;
+}
+
+li:before {
+	content: url(s.png);
+	margin-right: 10px;
+}
+
+
+input {
+	color: #fff;
+	padding: 6px 50px;
+	background-color: #ee8129;
+	border-radius: 4px;
+	border-color: #b3560b;
+}
