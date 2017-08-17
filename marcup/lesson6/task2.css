@@ -1,0 +1,82 @@
+
+div.Testimonials {
+	background-image: url(backg.png);
+	background-repeat:repeat;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 60px 0 0 0;
+	font-family: 'Roboto', sans-serif;
+	
+
+}
+
+.HEAD_WHAT {
+	display: inline-block;
+	margin: 0 auto;
+	color: #3170a8;
+	margin-bottom: 30px;
+	width: 100%;
+}
+
+span.what	{
+	color: #da772a;
+}
+
+div.otzyv	{
+	display: inline-block;
+	width: 490px;
+	margin:0 20px 25px;
+	position: relative;
+	vertical-align: top;
+
+}
+
+img 	{
+	float: left;
+}
+
+section	{
+	background-color: #fff;
+	margin: 0  0 0 125px;
+	padding: 10px 15px 1px;
+	color: #666666;
+	font-size: 13px;
+	min-height: 88px;
+
+}
+section header {
+	color: #3070a8;
+	font-style: italic;
+	text-align: left;
+	position: relative;
+	z-index: 2;
+
+}
+section header:before	{
+	content: '-';
+	color: #3070a8;
+	margin-right: 5px;
+}
+section header span {
+	float: right;
+
+}
+section p {
+	text-align: justify;
+	border-top: 1px dotted #666666;
+	margin-top: 10px;
+	padding-top: 15px;
+	position: relative;
+	min-height: 18px;
+	z-index: 2;
+
+}
+section::before	{
+	content: '';
+	position: absolute;
+	left: 70px;
+	top: 15px;
+	border: 40px solid transparent; 
+	border-right: 40px solid #fff;
+	z-index: 1;
+}
