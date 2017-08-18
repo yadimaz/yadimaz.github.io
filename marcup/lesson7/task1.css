@@ -1,0 +1,86 @@
+.sivtsev	{
+/*	height: 60%;*/
+	width: 500px;
+	margin: 0 auto;
+/*	line-height: 80%;
+	text-align: justify;*/
+	font-family: sans-serif;
+/*	background-color: #ffee00;*/
+/*	color: #fff;*/
+/*	text-shadow: 0 0 2px, rgba(0,255,0, 1);*/
+
+
+}
+
+.uline {
+	width:380px;
+	height: 1px;
+	border-top:2px solid rgba(255,0,0,0.3);
+	
+	
+}
+
+p	{
+
+	display: inline-block;
+	width: 500px;
+/*	text-align: justify-all;*/
+	margin: 10px 0;
+/*	margin: 25px 0;*/
+	line-height: 1.6;
+/*	margin: 20px 0;*/
+	text-shadow: #555454 0 0 3px;
+    color: transparent; /* Прозрачный цвет текста */
+
+}
+
+.sight01 	{
+
+	font-size: 6.5em;
+	letter-spacing: 90px;
+/*	line-height: 100%;*/
+
+}
+.sight02 	{
+	letter-spacing: 32px;
+	font-size: 5.5em;
+}
+.sight03 	{
+	letter-spacing: 10px;
+	font-size: 4.8em;
+}
+.sight04 	{
+	letter-spacing: 6px;
+	font-size: 4.3em;
+}
+.sight05 	{
+	letter-spacing: 9px;
+	font-size: 3.8em;
+}
+.sight06 	{
+	letter-spacing: 8px;
+	font-size: 3.15em;
+
+}
+.sight07 	{
+	letter-spacing: 14px;
+	font-size: 2.5em;
+}
+.sight08 	{
+	letter-spacing: 14px;
+	font-size: 1.8em;
+}
+.sight09 	{
+	letter-spacing: 20px;
+	font-size: 1.2em;
+}
+.sight10 	{
+	letter-spacing: 20px;
+	font-size: 0.8em;
+}.sight15 	{
+	letter-spacing: 21px;
+	font-size: 0.7em;
+}.sight20 	{
+	letter-spacing: 22px;
+	font-size: 0.6em;
+}
