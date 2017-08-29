@@ -1,0 +1,51 @@
+body	{
+	margin: 20px;
+	padding: 0;
+}
+
+
+div.epta	{
+	display: inline-block;
+	width: 50%;
+/*	outline: 1px solid red;*/
+	vertical-align: top;
+	min-height: 85px;
+	margin-bottom: 30px;
+	font-family: Arial, sans-serif;
+}
+
+div.Item {
+	position: relative;
+	vertical-align: top;
+
+}
+
+div.Item:nth-child(odd) {
+	padding-right: 20px;
+}
+
+div.Item:nth-child(even) {
+	padding-left: 20px;
+}
+
+img	{
+	position: absolute;
+	border-radius: 4px;
+	top: 0;
+	left: 0;
+}
+
+h2	{
+	font-size: 22px;
+	color: #637f83;
+	margin:0 0 0 115px;
+	padding-bottom: 10px;
+	vertical-align: top;
+}
+
+p 	{
+	font-size: 14px;
+	color: #959595;
+	line-height: 1.5;
+	margin:0 0 0 115px;
+}
