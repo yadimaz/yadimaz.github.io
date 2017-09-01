@@ -67,6 +67,10 @@ div.button:hover	{
 	opacity: 0.9;
 }
 
+input#zoom:hover,input#link:hover	{
+	border-color: rgba(255,255,255, 1);
+}
+
 input#zoom,input#link  {
 	font-size: 0;
 /*	position: relative;*/
@@ -76,7 +80,7 @@ input#zoom,input#link  {
 	background-color: transparent;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
-	border: 1px solid #fff;
+	border: 1px solid rgba(255,255,255, 0.8);
 	border-radius: 4px;
 	vertical-align: middle;
 }
