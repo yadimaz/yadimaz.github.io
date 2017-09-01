@@ -1,0 +1,92 @@
+body	{
+	margin:0;
+	padding: 0;
+}
+
+@font-face {
+    font-family: Lato; /* Имя шрифта */
+    src: url(font/Lato-Regular.ttf); /* Путь к файлу со шрифтом */
+   }
+
+div.galery	{
+	font-size: 0;
+	max-width: 1180px;
+	margin:0 auto;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	padding-bottom: 80px;
+}
+
+div.galery h1	{
+	margin-top: 60px;
+	margin-bottom: 20px;
+	font-size: 41px;
+	color: #2d3950;
+	font-weight: normal;
+}
+
+div.galery p 	{
+	margin-bottom: 50px;
+	font-size: 14px;
+	color: #909090;
+}
+
+
+div.galery_item	{
+		font-size: 0;
+	position: relative;
+	width: auto;
+	display: inline-block;
+	margin:30px 13px 0 13px;
+	border-radius: 3px;
+	z-index: 1;
+}
+
+
+div.galery img {
+	width: 360px;
+}
+
+
+div.galery_item input:hover {
+
+}
+
+div.button	{
+		font-size: 0;
+	width: 360px;
+	height: 260px;
+	position: absolute;
+	z-index: 4;
+	top: 0;
+	background-color: rgba(26,154,229, 0.9);
+	opacity: 0;
+}
+
+div.button:hover	{
+	opacity: 0.9;
+}
+
+input#zoom,input#link  {
+	font-size: 0;
+/*	position: relative;*/
+	display: inline-block;
+	padding: 20px 20px;
+	margin: 109px 5px;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	vertical-align: middle;
+}
+
+input#zoom{
+	background-image: url(img/zoom_icon.png);
+	cursor: zoom-in;
+}
+
+input#link {
+	background-image: url(img/link_icon.png);
+	cursor: pointer;
+}
