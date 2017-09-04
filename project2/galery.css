@@ -4,8 +4,8 @@ body	{
 }
 
 @font-face {
-    font-family: Lato; /* Имя шрифта */
-    src: url(font/Lato-Regular.ttf); /* Путь к файлу со шрифтом */
+    font-family: Lato;
+    src: url(font/Lato-Regular.ttf);
    }
 
 div.galery	{
@@ -33,7 +33,7 @@ div.galery p 	{
 
 
 div.galery_item	{
-		font-size: 0;
+	font-size: 0;
 	position: relative;
 	width: auto;
 	display: inline-block;
@@ -61,6 +61,7 @@ div.button	{
 	top: 0;
 	background-color: rgba(26,154,229, 0.9);
 	opacity: 0;
+	transition: opacity 0.5s linear;	
 }
 
 div.button:hover	{
@@ -73,7 +74,6 @@ input#zoom:hover,input#link:hover	{
 
 input#zoom,input#link  {
 	font-size: 0;
-/*	position: relative;*/
 	display: inline-block;
 	padding: 20px 20px;
 	margin: 109px 5px;
