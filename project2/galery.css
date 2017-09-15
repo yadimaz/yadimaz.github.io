@@ -31,20 +31,29 @@ div.galery p 	{
 	color: #909090;
 }
 
-
 div.galery_item	{
 	font-size: 0;
 	position: relative;
 	width: auto;
+	width: 360px;
+	height: 260px;
+	box-sizing: border-box; 
 	display: inline-block;
 	margin:30px 13px 0 13px;
 	border-radius: 3px;
-	z-index: 1;
+	background-color: rgba(26,154,229, 1);
 }
 
 
-div.galery img {
+	div.galery img {
+	position: absolute;
+	display: inline-block;
 	width: 360px;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	opacity: 0.5;
+	transition: opacity 0.5s linear;
 }
 
 
@@ -53,34 +62,41 @@ div.galery_item input:hover {
 }
 
 div.button	{
-		font-size: 0;
-	width: 360px;
-	height: 260px;
-	position: absolute;
-	z-index: 4;
-	top: 0;
-	background-color: rgba(26,154,229, 0.9);
-	opacity: 0;
-	transition: opacity 0.5s linear;	
-}
+	vertical-align: middle;
+	font-size: 0;
+/* 	width: 360px;
+height: 260px; */
+/* 	position: absolute; */
+	z-index: 2;
+/* 	top: 0;
+background-color: rgba(26,154,229, 0.9);
+transition: opacity 0.5s linear;	
+} */
 
-div.button:hover	{
+/* div.button:hover	{
 	opacity: 0.9;
-}
+}*/
+ }
+
+div.galery img:hover {
+	opacity: 0.2;
+} 
 
 input#zoom:hover,input#link:hover	{
 	border-color: rgba(255,255,255, 1);
-}
+} 
+
+
 
 input#zoom,input#link  {
 	font-size: 0;
-	display: inline-block;
+	display: inline;
 	padding: 20px 20px;
-	margin: 109px 5px;
+/*  	margin: 109px 5px;  */
 	background-color: transparent;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
-	border: 1px solid rgba(255,255,255, 0.8);
+	border: 1px solid rgba(255,255,255, 0.7);
 	border-radius: 4px;
 	vertical-align: middle;
 }
